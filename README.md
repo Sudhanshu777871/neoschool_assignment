@@ -39,7 +39,6 @@ Create a .env file in the project root directory and add the following configura
 
 ##### Server Port
 > PORT=3000
-> Note: Generate a 32-byte hex key and a 16-byte hex IV for encryption. Use a secure tool for generating these keys.
 
 ### Run the Application
 > node app.js Or nodemon app.js
