@@ -55,16 +55,28 @@ The server will start on the port specified in the .env file (default: 3000).
 
 ### Create Contact API
 ```
-> URL: /api/contacts/create
+> URL: /api/contact/create
 > Method: POST
 > Headers: Authorization: Bearer your_jwt_token
 ```
 
 ### Edit Contact API
 ```
-> URL: /api/contacts/edit
+> URL: /api/contact/edit
 > Method: PATCH
 > Headers: Authorization: Bearer your_jwt_token
+```
+
+### Search Contact API
+```
+> URL: /api/contacts/search
+> Method: POST
+> Headers: Authorization: Bearer your_jwt_token
+> Request Body:
+{
+  "search_token": "name"
+}
+
 ```
 
 ### Search Contact API
