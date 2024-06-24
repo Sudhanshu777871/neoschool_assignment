@@ -78,10 +78,3 @@ The server will start on the port specified in the .env file (default: 3000).
 }
 
 ```
-
-### Search Contact API
-```
-> URL: /api/contacts/search
-> Method: POST
-> Headers: Authorization: Bearer your_jwt_token
-```
