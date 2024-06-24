@@ -16,8 +16,6 @@ Git
 ## Getting Started
 ### clone the Repository
 git clone https://github.com/Sudhanshu777871/neoschool_assignment.git
-name/contacto.git
-cd contacto
 
 ### Install Dependencies
 npm install
