@@ -46,20 +46,28 @@ node app.js Or nodemon app.js
 ## API Endpoints
 
 ###  Login API
+```
 > URL: /api/auth/login
 > Method: POST
+```
 
 ### Create Contact API
+```
 > URL: /api/contacts/create
 > Method: POST
 > Headers: Authorization: Bearer your_jwt_token
+```
 
 ### Edit Contact API
+```
 > URL: /api/contacts/edit
 > Method: PATCH
 > Headers: Authorization: Bearer your_jwt_token
+```
 
 ### Search Contact API
+```
 > URL: /api/contacts/search
 > Method: POST
 > Headers: Authorization: Bearer your_jwt_token
+```
