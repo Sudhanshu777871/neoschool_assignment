@@ -51,6 +51,11 @@ The server will start on the port specified in the .env file (default: 3000).
 ```
 > URL: /api/auth/login
 > Method: POST
+> Request Body:
+{
+  "username": "saltman",
+  "password": "oai1122"
+}
 ```
 
 ### Create Contact API
@@ -58,6 +63,15 @@ The server will start on the port specified in the .env file (default: 3000).
 > URL: /api/contact/create
 > Method: POST
 > Headers: Authorization: Bearer your_jwt_token
+> Request Body:
+{
+  "name": "Sudhanshu",
+  "phone": 1234567890,
+  "email": "sudhanshu.sk@example.com",
+  "linkedin": "https://linkedin.com/in/sudhanshu",
+  "twitter": "@sudhanshu"
+}
+
 ```
 
 ### Edit Contact API
@@ -65,11 +79,17 @@ The server will start on the port specified in the .env file (default: 3000).
 > URL: /api/contact/edit
 > Method: PATCH
 > Headers: Authorization: Bearer your_jwt_token
+> Request Body:
+{
+  "name": "Sudhanshu",
+  "email": "sudhanshu.sk@newdomain.com"
+}
+
 ```
 
 ### Search Contact API
 ```
-> URL: /api/contacts/search
+> URL: /api/contact/search
 > Method: POST
 > Headers: Authorization: Bearer your_jwt_token
 > Request Body:
